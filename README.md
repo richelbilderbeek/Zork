@@ -4,6 +4,8 @@
 
 Zork made compilable by Qt Creator.
 
+![Zork](Zork.png)
+
 ## Building
 
 From the command-line:
