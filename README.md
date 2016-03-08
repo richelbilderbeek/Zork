@@ -14,6 +14,8 @@ From the command-line:
 ./build.sh
 ```
 
+Note: upon running `./Zork`, this will give a segmentation fault after most commands, see `Segmentation fault`
+
 From Qt Creator:
 
  * Start Qt Creator
@@ -27,6 +29,8 @@ It does not work because of the following error:
 ```
 I can't open /usr/games/lib/dunlib/dtextc.dat.
 ```
+
+![Error](Error.png)
 
 Solution: 
 
@@ -45,3 +49,9 @@ sudo apt-get install libncurses-dev
 ```
 sudo apt-get install libncurses-dev
 ```
+
+### Segmentation fault
+
+When you have built Zork using `build.sh` and started the game with `./Zork` most commands terminate the program with a segmentation fault.
+
+I have no idea why. If you do, please let me know.
