@@ -52,8 +52,9 @@ sudo apt-get install libncurses-dev
 
 ### Segmentation fault
 
-When you have built Zork using `build.sh` and started the game with `./Zork` most commands terminate the program with a segmentation fault.
+If you are using an older version, 
+when you have built Zork using `build.sh` and started the game with `./Zork` most commands terminate the program with a segmentation fault.
 
 ![SegmentationFault](SegmentationFault.png)
 
-I have no idea why. If you do, please let me know.
+This is fixed in the current version, thanks to [@fuulish](https://github.com/fuulish)
