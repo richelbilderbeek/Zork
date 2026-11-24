@@ -2,3 +2,6 @@
 *.o
 Makefile
 Zork
+
+# Generated when building the website
+site/
