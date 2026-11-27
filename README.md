@@ -1,7 +1,5 @@
 # Zork
 
-[![Build Status](https://travis-ci.org/richelbilderbeek/Zork.svg?branch=master)](https://travis-ci.org/richelbilderbeek/Zork)
-
 Zork made compilable by Qt Creator.
 
 ![Zork](Zork.png)
